@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content{
+    width: 400px;
+}
+
+input,
+textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: none;
+    outline: none;
+    margin-bottom: 2rem;
+    padding: 10px;
+    cursor: pointer;
+}

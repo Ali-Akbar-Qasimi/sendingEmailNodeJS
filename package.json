@@ -1,0 +1,20 @@
+{
+  "name": "sending-email-by-node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
